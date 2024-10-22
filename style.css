@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Sassy+Frass&family=Sixtyfour+Convergence&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Sassy+Frass&family=Sixtyfour+Convergence&display=swap');
+body{
+    margin: 0;
+    background-color:#fcfbe5;
+    color: rgb(0, 0, 0);
+}
+.navbar{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    background-color:#A8D5E3;
+    
+    
+}
+.navbar-left{
+
+.logo{
+    height: 150px;
+    width:200px;
+}
+    
+}
+.navbar-right{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+}
+
+.element {
+    padding:10px;
+    margin: 10px;
+    font-family: "Kanit", sans-serif;
+    font-weight:bold;
+    font-style:normal;
+    font-size: 20px;
+    color: black;
+      
+}
+.home{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cff1e8;
+    font-size:larger;
+   
+   
+    height: 100vh;
+}
+.home-left{
+    text-align:justify;
+    width:50vw;
+    padding-left: 200px;
+    font-family: "Dosis", sans-serif;
+    h1{
+        font-family: "Dosis", sans-serif;
+    }
+     
+
+}
+.home-right{
+    width:50vw;
+    padding-left:200px
+    
+}
+.IMG{
+    height: 400px;
+}
+
+.skills{
+    padding:10px;
+    h1{
+        text-align: center;
+        font-family: "Bebas Neue", sans-serif;
+        text-decoration: underline;
+    }
+    
+   
+}
+   
+    
+    
+    
+    
+.skill1{
+    display: flex;
+    flex-direction: row;
+    
+   
+
+    .img{
+        height: 30px;
+    }
+    
+       
+}
+.course{
+    border: 2px rgb(168, 71, 47) solid;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+   text-align: center;
+   font-family: "Dosis", sans-serif;
+
+   
+}
+.projects{
+    h1{
+        text-align: center;
+        padding: 20px;
+        font-family: "Bebas Neue", sans-serif;
+        text-decoration: underline;
+        
+    }
+   
+.project1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+   
+}
+.project1-left{
+    width: 50vw;
+    height:400px;
+    
+    margin: 30px;
+    padding: 5px;
+    text-align: center;
+    h2{
+        font-family: "Bebas Neue", sans-serif;
+
+    }
+    p{
+        text-align: justify;
+        font-family: "Dosis", sans-serif;
+        font-size: large;
+    }
+}
+.project1-right{
+    width: 50vw;
+    height:410px;
+  
+    
+    margin: 10px;
+    .pr1-img{
+        height:410px;
+        width:500px;
+        
+    }
+    padding-left:50px ;
+}
+ 
+.project2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+.project2-right{
+    width: 50vw;
+    height:400px;
+    
+    margin: 30px;
+    padding: 5px;
+    text-align: center;
+    h2{
+        font-family: "Bebas Neue", sans-serif;
+
+    }
+    p{
+        text-align: justify;
+        font-family: "Dosis", sans-serif;
+        font-size: large;
+    }
+    
+    
+}
+.project2-left{
+    width: 50vw;
+    height:410px;
+  
+    
+    margin: 10px;
+    .pr2-img{
+        height:410px;
+        width:500px;
+        
+    }
+    padding-left: 150px;
+    
+
+}
+.links{
+    img{
+        width: 10px;
+        height: 20px;
+    }
+    border: 2px solid red;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+}
+
+
+.links {
+    display: flex;                      /* Use flexbox for links */
+    flex-direction: row;     
+    justify-content: center;        /* Stack items vertically */
+    align-items: center;                /* Center items */
+}
+
+.links img {
+    max-width: 100px;                  /* Set a max width for images */
+    height: 100px; 
+    margin: 10px;                      /* Maintain aspect ratio */
+                     /* Space between images */
+}
+.linkedin{
+    img{
+        width:60px;
+        height:60px
+}
+}
+.link{
+    font-family: "Dosis", sans-serif;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+
+
